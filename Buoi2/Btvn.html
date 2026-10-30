@@ -73,10 +73,13 @@
         <input type="text" id="fname" name="fname"><br><br>
         <label for="email">Email (bắt buộc):</label>
         <input type="text" id="email" name="email"><br><br>
-        <label for="quantity">Trình độ hiện tại:</label>
-        <input type="number" id="quantity" name="quantity" min="Mới bắt đầu" 
-        max="Đã biết cơ bản">
-    </fieldset>
+        <label for="level">Trình độ hiện tại:</label>
+        <select id="level" name="level">
+        <option value="begin">Mới bắt đầu</option>
+        <option value="basic">Đã biết cơ bản</option>
+        </select>
+       
+    </fieldset> 
     <fieldset>
         <legend>Nguyện vọng học tập</legend>
         <p>Ca học mong muốn:</p>
