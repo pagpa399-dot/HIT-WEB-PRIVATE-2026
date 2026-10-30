@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 206, 214);
+}
+.title{
+    display: flex;
+    flex-direction: column;
+}
+.para span{
+    padding: 10px;
+    /* letter-spacing: 2px; */
+    margin: 50px;
+    font-size: 20px;
+}
