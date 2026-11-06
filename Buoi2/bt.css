@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    background-color: green;
+    border-radius: 30px;
+    border: 1px solid pink;
+}
+.img{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+}
+.name{
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+}
+.content{
+    font-size: 10px;
+    color: black;
+}
+.link{
+    
+}
